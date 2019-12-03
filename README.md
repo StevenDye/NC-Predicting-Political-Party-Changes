@@ -11,10 +11,11 @@ Goal: To be able to predict what political party a voter will change their regis
 Responsibilities:
  - Define project scope and focus
  - Collect data
- - Form hypotheses
+ - Form hypothesis
  - Perform exploratory data analysis
  - Create Master Notebook
- - Test hypotheses
+ - Create Regression Model
+ - Test hypothesis
  - Create presentation
  - Lint/clean code file
  
