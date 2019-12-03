@@ -29,3 +29,4 @@ Responsibilities:
      - y_train.csv: Train target with SMOTE
 - data_prep.py: Code used to clean data and to add SMOTE data
 - nc_functions.py: Module to store functions
+- viz.py: File for storing vizualization functions
