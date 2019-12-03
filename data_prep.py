@@ -38,6 +38,8 @@ y_train_df = pd.DataFrame(y_train)
 X_test_df = pd.DataFrame(X_test)
 y_test_df = pd.DataFrame(y_test)
 
+#
+
 # Print cleaned data
 X_train_df.to_csv('data/X_train.csv', sep=',')
 y_train_df.to_csv('data/y_train.csv', sep=',')
