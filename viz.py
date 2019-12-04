@@ -15,12 +15,14 @@ import pandas as pd
 
 
 def make_percent_df(df):
+    """Quick function for outputting a small dataframe
+    representing percentages of each voting party."""
     dict_of_party_values = df.party_to.value_counts().to_dict()
     raw_data_normal = {k: round(v/(sum(dict_of_party_values.values())), 2) for k, v in dict_of_party_values.items()}
     df_percent = pd.DataFrame(list(raw_data_normal.items()))
-    df_percent.rename(columns={0:'Party', 1:'Percent of Voters'}, inplace = True)
+    df_percent.rename(columns={0: 'Party', 1: 'Percent of Voters'}, inplace=True)
     df_percent = df_percent.style.hide_index()
-    return(df_percent)
+    return df_percent
 
 
 def confusion_matrix_heat_map(clf, X_test, y_test):
