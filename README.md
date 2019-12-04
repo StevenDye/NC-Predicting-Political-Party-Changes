@@ -21,6 +21,7 @@ Responsibilities:
  
  Summary of files:
  - Master_Notebook.ipynb: Jupyter Notebook documenting the code and the analysis for the project. Written for a technical audience
+ - Predicting N.C. Voter Party Changes.pdf: PDF of final presentation
  - data file
      - 2019_party_change_list.csv: 2019 Voter registration data from the state 
      - X_test.csv: Test features
