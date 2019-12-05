@@ -1,6 +1,6 @@
 # FIS-Mod4-Project: NC-Voting-Data
 
-This project focuses on logistic regression testing using 2019 voter registration data from the state of North Carolina
+This project focuses on logistic regression testing using 2019 voter party registration data from the state of North Carolina
 
 Date: December 2019
 
